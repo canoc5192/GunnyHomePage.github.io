@@ -66,13 +66,13 @@ body, html {
     left: 49%;
     margin-top: -270px;
     margin-left: -120px;
-    transform: scale(1.6);
+    transform: scale(1.7);
 }
 
 .Top1:hover{
     top: 55%;
     left:48%;
-    transform: scale(1.7);
+    transform: scale(1.8);
     transition: all 1s;
 }
 .Top2{
@@ -251,13 +251,13 @@ body, html {
     left: 49%;
     margin-top: -270px;
     margin-left: -120px;
-    transform: scale(1.4);
+    transform: scale(1.5);
 }
 
 .Top1:hover{
     top: 62%;
     left:48%;
-    transform: scale(1.5);
+    transform: scale(1.6);
     transition: all 1s;
 }
 .Top2{
