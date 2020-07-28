@@ -90,14 +90,14 @@ body, html {
 }
 .Top3{
     top: 58%;
-    left: 80%;
+    left: 85%;
 
     margin-top: -166px;
     margin-left: -120px;
 }
 .Top3:hover{
     top: 55%;
-    left:79%;
+    left:84%;
     transform: scale(1.4);
     transition: all 2s;
 }
