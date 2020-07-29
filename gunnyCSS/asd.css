@@ -1,0 +1,292 @@
+body, html {
+    height: 100%;
+    cursor: crosshair;
+
+  }
+
+:root{
+      --charTop:expression(document.body.clientWidth > 800? "800px": "auto" );
+  }
+._wrapContent{
+    position: relative;
+    object-fit: cover;
+    background-image:url('./../gunnyImg/aa.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    width:100%;
+    height: 100vh;
+    z-index: 210;
+}
+.contentimg{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30vh;
+}
+._Content{
+    object-fit: cover;
+    /* background-image:url('dead.png'); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    max-width: 100%;
+    max-height: 100%;
+    width:100%;
+    height: 100vh;
+    z-index: 33;
+}
+
+#imageBubble{
+
+    width:80vh ;
+    height: 40vh;
+    margin-left: -50%;
+    margin-top: -13%;
+}
+.Title{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    top:0%;
+    left: 50%;
+    margin-top: -40px;
+    z-index: 1;
+}
+
+.Char{
+    position: absolute;
+    transform: scale(1.3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: all 1s;
+
+}
+.Top1{
+    top: 54%;
+    left: 49%;
+    margin-top: -270px;
+    margin-left: -120px;
+    transform: scale(1.8);
+}
+
+.Top1:hover{
+    top: 51%;
+    left:48%;
+    transform: scale(1.9);
+    transition: all 1s;
+}
+.Top2{
+    top: 58%;
+    left: 20%;
+
+    margin-top: -166px;
+    margin-left: -120px;
+}
+.Top2:hover{
+    top: 55%;
+    left:19%;
+    transform: scale(1.4);
+    transition: all 2s;
+}
+.Top3{
+    top: 58%;
+    left: 85%;
+
+    margin-top: -166px;
+    margin-left: -120px;
+}
+.Top3:hover{
+    top: 55%;
+    left:84%;
+    transform: scale(1.4);
+    transition: all 2s;
+}
+.body{
+    display: flex;
+    position: relative;
+}
+
+
+.cloth{
+    position: absolute;
+    z-index: 30;
+
+}
+
+.head{
+    position: absolute;  
+    width: 250px;
+    height: 311.99px;
+    overflow: hidden;
+}
+.glass{
+    position: absolute;
+    z-index: 10;
+ 
+}
+
+.hat{
+    position: absolute;
+    z-index: 9;
+
+
+}
+.hair{
+    position: absolute;
+    z-index: 8;
+
+}
+.face{
+    position: absolute;
+    z-index: 7;
+
+}
+
+
+
+.back{
+
+}
+.circle{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 1vh;
+    top: 4vh;
+    transform: scale(1.55);
+}
+
+.circleOut{
+    position: absolute;
+    width: 100%;
+    transition: all 8s ;
+    transition-timing-function: linear;
+
+}
+.circleIn{
+    position: absolute;
+    left: 2.5vh;
+    top:2.5vh;
+    width:70%;
+    transition: all 8s ;
+    transition-timing-function: linear;
+
+}
+
+.swf{
+    position: absolute;
+
+    left: -11vh;
+    z-index: 3;
+}
+
+.swftop3{
+    margin-top: -3vh;
+}
+
+.swfcircle{
+    margin-top: -7vh;
+    margin-left: -7vh;
+}
+
+#canvas {
+	cursor: crosshair;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-dangnhap{
+    position: absolute;
+    top: 89%;
+    left: 50%;
+    width: 280px;
+    height: 100px;
+    margin-left: -14vh;
+    padding: 0!important;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.btn-dangnhap > img {
+    width: 100%;
+}
+
+/* .column#grayscale img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.column#grayscale:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+} */
+.column#sepia img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.column#sepia:hover img {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1699.98px) { 
+    
+        
+.Top1{
+    top: 60%;
+    left: 49%;
+    margin-top: -270px;
+    margin-left: -120px;
+    transform: scale(1.6);
+}
+
+.Top1:hover{
+    top: 57%;
+    left:48%;
+    transform: scale(1.7);
+    transition: all 1s;
+}
+.Top2{
+    top: 63%;
+    left: 20%;
+    transform: scale(1.1);
+    margin-top: -166px;
+    margin-left: -120px;
+}
+.Top2:hover{
+    top: 60%;
+    left:19%;
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.Top3{
+    top: 63%;
+    left: 87%;
+    transform: scale(1.1);
+    margin-top: -166px;
+    margin-left: -120px;
+}
+.Top3:hover{
+    top: 60%;
+    left:86%;
+    transform: scale(1.2);
+    transition: all 2s;
+}
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1700px) {  }
