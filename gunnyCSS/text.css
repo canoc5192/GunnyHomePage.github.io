@@ -1,0 +1,73 @@
+HTML, BODY {
+  height: 100%;
+}
+
+.text {
+  font: 20em/1 Arial;
+
+}
+
+.text--line {
+  font-size: 0;
+}
+
+svg {
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  z-index: 199;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 21px;
+ 
+  -webkit-animation: stroke-offset 3s 2 ease ;
+          animation: stroke-offset 3s 2 ease ;
+  animation-fill-mode: forwards;  
+}
+
+.text-copy:nth-child(1) {
+  stroke: #fff;
+  stroke-dashoffset: 7%;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #fff;
+  stroke-dashoffset: 14%;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #fff;
+  stroke-dashoffset: 21%;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #fff;
+  stroke-dashoffset: 28%;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #fff;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 30%  87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+
+
+/*# sourceMappingURL=text.css.map */
